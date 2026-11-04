@@ -1,0 +1,32 @@
+{
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75
+  },
+  "top_k": 5,
+  "context": {
+    "max_chars": 12000,
+    "max_blocks": 10,
+    "max_input_tokens": 4096
+  },
+  "generation": {
+    "max_tokens": 512,
+    "timeout_s": 180
+  },
+  "tokenizer": {
+    "model": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"
+  },
+  "retrieval": {
+    "mode": "hybrid",
+    "candidates": 20,
+    "neighbors": true,
+    "fusion": "guarded"
+  },
+  "embedding": {
+    "model": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "max_length": 512
+  },
+  "use_context": true
+}

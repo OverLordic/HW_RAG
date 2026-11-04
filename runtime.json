@@ -1,0 +1,85 @@
+{
+  "model": "Qwen/Qwen3.5-4B",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "dtype": "float16",
+  "quantization": null,
+  "enable_thinking": false,
+  "do_sample": false,
+  "temperature": 0,
+  "max_tokens": 512,
+  "context_limit": 8192,
+  "timeout_s": 180,
+  "development": {
+    "platform": "Kaggle",
+    "gpu": "Tesla T4 15360 MiB",
+    "device": "cuda:0",
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.16.1",
+    "accelerate": "1.14.0",
+    "huggingface-hub": "1.29.0",
+    "access": "loopback Chat Completions API within Kaggle; no public tunnel"
+  },
+  "client_python": "3.11.18",
+  "limits": {
+    "calls": 4,
+    "input_tokens": 16384,
+    "output_tokens": 4096
+  },
+  "client_tokenizer": {
+    "source": "index/tokenizer",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "local_files_only": true,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "output_policy": "Deduplicate identical IDs and clear citations for explicit refusals with empty answer_ids; log all changes and preserve raw API responses.",
+  "embedding": {
+    "model": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "max_length": 512,
+    "device": "cpu"
+  },
+  "pipeline": {
+    "retrieval": "BM25 + guarded E5 fusion + page continuations; candidate selected from run 62bd9e01dd9d",
+    "llm_calls": 1,
+    "review": false
+  },
+  "observed": {
+    "python": "3.13.15",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "transformers": "5.16.1",
+      "tokenizers": "0.23.1",
+      "jinja2": "3.1.6",
+      "huggingface-hub": "1.29.0",
+      "accelerate": "1.14.0"
+    }
+  },
+  "client_max_input_tokens": 4096,
+  "validation_status": "Measured 75 requests; candidate valid 15/15; memory check passed 4096+512 tokens. See outputs/final_run/manifest.json.",
+  "max_input_tokens": 4096,
+  "memory_check": {
+    "synthetic": true,
+    "input_tokens": 4096,
+    "output_tokens": 512,
+    "peak_gpu_gib": 11.352805614471436,
+    "elapsed_s": 40.74408392800001
+  },
+  "measured_run": {
+    "run_id": "62bd9e01dd9d",
+    "path": "outputs/final_run",
+    "selected": "candidate",
+    "resources": {
+      "model_load_s": 8.076246219999973,
+      "gpu": "Tesla T4",
+      "gpu_total_bytes": 15636037632,
+      "build_s": 93.57909583999998,
+      "build_peak_rss_bytes": 10386124800,
+      "host_peak_rss_bytes": 10386124800,
+      "index_bytes": 4705993,
+      "prepared_assets_bytes": 512425904
+    }
+  }
+}

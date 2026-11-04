@@ -1,0 +1,15 @@
+{"id": "q_001", "llm_calls": 1, "input_tokens": 2900, "output_tokens": 185, "elapsed_ms": 14839, "retrieved_block_ids": ["pdf_p011_b003", "pdf_p011_b002", "pdf_p012_b001", "pdf_p119_b003", "pdf_p015_b006"]}
+{"id": "q_002", "llm_calls": 1, "input_tokens": 2786, "output_tokens": 147, "elapsed_ms": 12091, "retrieved_block_ids": ["pdf_p012_b001", "pdf_p009_b002", "pdf_p013_b002", "pdf_p119_b003", "pdf_p078_b002"]}
+{"id": "q_003", "llm_calls": 1, "input_tokens": 2523, "output_tokens": 153, "elapsed_ms": 12076, "retrieved_block_ids": ["pdf_p011_b002", "pdf_p119_b003", "pdf_p119_b001", "pdf_p012_b001", "pdf_p079_b002"]}
+{"id": "q_004", "llm_calls": 1, "input_tokens": 3159, "output_tokens": 160, "elapsed_ms": 13548, "retrieved_block_ids": ["pdf_p028_b001", "pdf_p031_b002", "pdf_p042_b004", "pdf_p106_b002", "pdf_p081_b003"]}
+{"id": "q_005", "llm_calls": 1, "input_tokens": 1955, "output_tokens": 112, "elapsed_ms": 8695, "retrieved_block_ids": ["pdf_p030_b003", "pdf_p031_b002", "pdf_p042_b004", "pdf_p026_b002", "pdf_p064_b003"]}
+{"id": "q_006", "llm_calls": 1, "input_tokens": 3304, "output_tokens": 147, "elapsed_ms": 12844, "retrieved_block_ids": ["pdf_p046_b001", "pdf_p081_b003", "pdf_p066_b004", "pdf_p026_b002", "pdf_p041_b002", "pdf_p031_b005", "pdf_p032_b001"]}
+{"id": "q_007", "llm_calls": 1, "input_tokens": 3993, "output_tokens": 211, "elapsed_ms": 18659, "retrieved_block_ids": ["pdf_p040_b001", "pdf_p073_b001", "pdf_p118_b001", "pdf_p072_b001", "pdf_p028_b001"]}
+{"id": "q_008", "llm_calls": 1, "input_tokens": 2146, "output_tokens": 89, "elapsed_ms": 7577, "retrieved_block_ids": ["pdf_p031_b003", "pdf_p105_b004", "pdf_p035_b002", "pdf_p035_b003", "pdf_p106_b002"]}
+{"id": "q_009", "llm_calls": 1, "input_tokens": 2997, "output_tokens": 149, "elapsed_ms": 12566, "retrieved_block_ids": ["pdf_p012_b001", "pdf_p119_b003", "pdf_p013_b001", "pdf_p119_b001", "pdf_p078_b003"]}
+{"id": "q_010", "llm_calls": 1, "input_tokens": 2637, "output_tokens": 153, "elapsed_ms": 12184, "retrieved_block_ids": ["pdf_p037_b002", "pdf_p037_b001", "pdf_p036_b001", "pdf_p072_b001", "pdf_p051_b005"]}
+{"id": "q_011", "llm_calls": 1, "input_tokens": 2274, "output_tokens": 146, "elapsed_ms": 11217, "retrieved_block_ids": ["pdf_p037_b003", "pdf_p107_b001", "pdf_p053_b002", "pdf_p037_b005", "pdf_p016_b003"]}
+{"id": "q_012", "llm_calls": 1, "input_tokens": 2544, "output_tokens": 157, "elapsed_ms": 12122, "retrieved_block_ids": ["pdf_p059_b003", "pdf_p074_b003", "pdf_p074_b001", "pdf_p080_b001", "pdf_p065_b005"]}
+{"id": "q_013", "llm_calls": 1, "input_tokens": 2067, "output_tokens": 89, "elapsed_ms": 7486, "retrieved_block_ids": ["pdf_p037_b002", "pdf_p031_b002", "pdf_p020_b002", "pdf_p055_b003", "pdf_p051_b005"]}
+{"id": "q_014", "llm_calls": 1, "input_tokens": 3405, "output_tokens": 83, "elapsed_ms": 8792, "retrieved_block_ids": ["pdf_p057_b001", "pdf_p042_b004", "pdf_p039_b004", "pdf_p028_b001", "pdf_p071_b002"]}
+{"id": "q_015", "llm_calls": 1, "input_tokens": 2452, "output_tokens": 114, "elapsed_ms": 9343, "retrieved_block_ids": ["pdf_p099_b003", "pdf_p018_b002", "pdf_p099_b002", "pdf_p018_b001", "pdf_p037_b001"]}
